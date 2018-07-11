@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        form{
+            margin:15px 0  0 10px;
+        }
+        p label{
+            font-size:18px;
+
+        }
+    </style>
+
+    <link rel="stylesheet" href="bootstrap.css" >
+</head>
+<body>
+
+<form>
+    <h2>Registration</h2>
+    <div class="col-md-3">
+<p><label for="name">Name</label></p>
+<p><input type="text" id="name" class="form-control" placeholder="Name"></p>
+    </div>
+    <div class="col-md-3">
+<p><label for="l_name">Last Name</label></p>
+<p><input type="text" id="l_name" class="form-control" placeholder="Last Name"></p>
+    </div>
+    <div class="col-md-3">
+<p><label for="email">Email</label></p>
+<p><input type="email" id="email" class="form-control" placeholder="Email"></p>
+    </div>
+    <div class="col-md-3">
+<p><label for="password">Password</label></p>
+<p><input type="password" id="password" class="form-control" placeholder="Password"></p>
+    </div>
+    <div class="col-md-3">
+        <p><label for="confpassword">Confirm Password</label></p>
+        <p><input type="password" id="confpassword" class="form-control" placeholder="Confirm Password"></p>
+    </div>
+    <div class="col-md-3">
+<p><button type="button" id="button" class="btn btn-primary btn-md"value="Save">Save</button></p>
+    </div>
+</form>
+
+
+
+<script src="jquery.js"></script>
+<!--<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>-->
+<script src="script.js"></script>
+</body>
+</html>

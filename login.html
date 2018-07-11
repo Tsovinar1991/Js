@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap.css" >
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        form, h2{
+            margin:15px 0  0 10px;
+        }
+        p label {
+            font-size: 18px;
+        }
+
+    </style>
+</head>
+<body>
+<h2>Welcome</h2>
+<form>
+<div class="col-md-3">
+    <p><label for="login">Login</label></p>
+    <p><input type="text" id="login" class="form-control" placeholder="login">
+</div>
+<div class="col-md-3">
+    <p><label for="password">Password</label></p>
+    <p><input type="password" id="password" class="form-control" placeholder="Password"></p>
+</div>
+
+<div class="col-md-3">
+    <p><button type="button" id="button2" class="btn btn-primary btn-md" value="Login">Save</button></p>
+</div>
+</form>
+
+
+<script src="jquery.js"></script>
+<script src="login.js"></script>
+</body>
+</html>
