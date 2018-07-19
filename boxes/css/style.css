@@ -1,0 +1,32 @@
+.square{
+    width:500px;
+    height:100px;
+    background:red;
+}
+
+
+.square2{
+    width:100px;
+    height:100px;
+    float:left;
+}
+
+#pink{
+    background-color:pink;
+}
+
+#yellow{
+    background-color:yellow;
+}
+
+#orange{
+    background-color:orange;
+}
+
+#green{
+    background-color:green;
+}
+
+#purple{
+    background-color:purple;
+}
